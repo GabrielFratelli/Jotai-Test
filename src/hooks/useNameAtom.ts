@@ -1,5 +1,5 @@
 import { useAtom } from "jotai";
-import { globalNameState } from "../states/globalState";
+import { globalNameState } from "../states/globalNameState";
 
 export function useNameAtom() {
   const [nameAtom, setNameAtom] = useAtom(globalNameState);
